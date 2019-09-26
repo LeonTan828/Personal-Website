@@ -9,6 +9,7 @@ const PATH_TO_IMG = require('./assets/images/workinprogress.jpg')
 const AboutMePic = require('./assets/images/KL.jpg')
 const BascomPic = require('./assets/images/Bascom.jpg')
 const MusicPic = require('./assets/images/Music.jpg')
+const TravelPic = require('./assets/images/NatPark.jpg')
 
 class InfoRow extends React.Component {
     render() {
@@ -54,6 +55,22 @@ class InfoRow extends React.Component {
                         </Card.Text>
                         {/* <Button variant="primary">Find out more!</Button> */}
                     </Card.Body>
+                </Card>
+                <Card className="InfoRow-Card Card-Right">
+                    <Card.Body className="InfoRow-Card-Content">
+                        <Card.Title className="Card-Title"><b>Interests - Travelling</b></Card.Title>
+                        <Card.Text>
+                            Another thing I like to do is to travel.
+                            In fact, whenever I get the chance, I would choose to solo travel to a place
+                            I have never been before.
+                            The reason for this is because I find it to be the best way
+                            to truly immerse myself into the local culture the place has to offer.
+                            It's also a great way to put myself out of my comfort zone and enable myself
+                            to grow and improve in ways that I usually can't.
+                        </Card.Text>
+                        {/* <Button variant="primary">Find out more!</Button> */}
+                    </Card.Body>
+                    <Image className="InfoRow-Card-Image" src={TravelPic} fluid />
                 </Card>
                 
             </div>
