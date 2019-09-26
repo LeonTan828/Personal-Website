@@ -10,6 +10,7 @@ const AboutMePic = require('./assets/images/KL.jpg')
 const BascomPic = require('./assets/images/Bascom.jpg')
 const MusicPic = require('./assets/images/Music.jpg')
 const TravelPic = require('./assets/images/NatPark.jpg')
+const StarCraftPic = require('./assets/images/StarCraft.jpg')
 
 class InfoRow extends React.Component {
     render() {
@@ -48,7 +49,7 @@ class InfoRow extends React.Component {
                     <Card.Body className="InfoRow-Card-Content">
                         <Card.Title className="Card-Title"><b>Interests - Music</b></Card.Title>
                         <Card.Text>
-                            Although I am a student with two STEM majors, I love art as well and have a great appreciation for it.
+                            Although I major in STEM, I love art as well and have a great appreciation for it.
                             Of all the different forms of art available, music is my favourite.
                             Listening to music is my favorite way to relax and spend my free time.
                             The music genre that I most frequently listen to are Hip Hop, RnB and Soul.
@@ -72,7 +73,16 @@ class InfoRow extends React.Component {
                     </Card.Body>
                     <Image className="InfoRow-Card-Image" src={TravelPic} fluid />
                 </Card>
-                
+                <Card className="InfoRow-Card Card-Left">
+                    <Image className="InfoRow-Card-Image1" src={StarCraftPic} fluid />
+                    <Card.Body className="InfoRow-Card-Content">
+                        <Card.Title className="Card-Title"><b>Interests - StarCraft</b></Card.Title>
+                        <Card.Text>
+                            
+                        </Card.Text>
+                        {/* <Button variant="primary">Find out more!</Button> */}
+                    </Card.Body>
+                </Card>
             </div>
         )
     }
