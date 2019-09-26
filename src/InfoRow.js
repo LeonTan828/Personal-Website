@@ -6,15 +6,16 @@ import './InfoRow.css'
 
 
 const PATH_TO_IMG = require('./assets/images/workinprogress.jpg')
-const PATH_TO_IMG1 = require('./assets/images/KL.jpg')
-const PATH_TO_IMG2 = require('./assets/images/Bascom.jpg')
+const AboutMePic = require('./assets/images/KL.jpg')
+const BascomPic = require('./assets/images/Bascom.jpg')
+const MusicPic = require('./assets/images/Music.jpg')
 
 class InfoRow extends React.Component {
     render() {
         return(
             <div className="InfoRow">
                 <Card className="InfoRow-Card Card-Left">
-                    <Image className="InfoRow-Card-Image1" src={PATH_TO_IMG1} fluid />
+                    <Image className="InfoRow-Card-Image1" src={AboutMePic} fluid />
                     <Card.Body className="InfoRow-Card-Content">
                         <Card.Title className="Card-Title"><b>About Me</b></Card.Title>
                         <Card.Text>
@@ -39,7 +40,20 @@ class InfoRow extends React.Component {
                         </Card.Text>
                         {/* <Button variant="primary">Find out more!</Button> */}
                     </Card.Body>
-                    <Image className="InfoRow-Card-Image" src={PATH_TO_IMG2} fluid />
+                    <Image className="InfoRow-Card-Image" src={BascomPic} fluid />
+                </Card>
+                <Card className="InfoRow-Card Card-Left">
+                    <Image className="InfoRow-Card-Image1" src={MusicPic} fluid />
+                    <Card.Body className="InfoRow-Card-Content">
+                        <Card.Title className="Card-Title"><b>Interests - Music</b></Card.Title>
+                        <Card.Text>
+                            Although I am a student with two STEM majors, I love art as well and have a great appreciation for it.
+                            Of all the different forms of art available, music is my favourite.
+                            Listening to music is my favorite way to relax and spend my free time.
+                            The music genre that I most frequently listen to are Hip Hop, RnB and Soul.
+                        </Card.Text>
+                        {/* <Button variant="primary">Find out more!</Button> */}
+                    </Card.Body>
                 </Card>
                 
             </div>
