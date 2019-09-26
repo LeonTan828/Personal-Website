@@ -76,9 +76,13 @@ class InfoRow extends React.Component {
                 <Card className="InfoRow-Card Card-Left">
                     <Image className="InfoRow-Card-Image1" src={StarCraftPic} fluid />
                     <Card.Body className="InfoRow-Card-Content">
-                        <Card.Title className="Card-Title"><b>Interests - StarCraft</b></Card.Title>
+                        <Card.Title className="Card-Title"><b>Interests - StarCraft II</b></Card.Title>
                         <Card.Text>
-                            
+                            I am also an avid StarCraft II player and I started playing this game 2 years ago.
+                            Since I started playing StarCraft, I noticed an improvement in my critical thinking
+                            and problem solving skills.
+                            Playing this game has also taught me how to manage problems in a calmly manner.
+                            In addition, I was also able to hone my multitasking and organizational skills.
                         </Card.Text>
                         {/* <Button variant="primary">Find out more!</Button> */}
                     </Card.Body>
