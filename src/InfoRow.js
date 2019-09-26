@@ -7,6 +7,7 @@ import './InfoRow.css'
 
 const PATH_TO_IMG = require('./assets/images/workinprogress.jpg')
 const PATH_TO_IMG1 = require('./assets/images/KL.jpg')
+const PATH_TO_IMG2 = require('./assets/images/Bascom.jpg')
 
 class InfoRow extends React.Component {
     render() {
@@ -15,36 +16,30 @@ class InfoRow extends React.Component {
                 <Card className="InfoRow-Card Card-Left">
                     <Image className="InfoRow-Card-Image1" src={PATH_TO_IMG1} fluid />
                     <Card.Body className="InfoRow-Card-Content">
-                        <Card.Title className="Card-Title">About Me</Card.Title>
+                        <Card.Title className="Card-Title"><b>About Me</b></Card.Title>
                         <Card.Text>
                             My name is Leon Tan and I was born and raised in Kuala Lumpur, Malaysia.
-                            Kuala Lumpur is a unique and vibrant multicultural city in South East Asia
-                            and has definitely played an important role in shaping who I am today.
-                            I am glad to have grew up there as it has allowed me to learn and interact with
-                            people from different background and identity; something that I realized
-                            not many people have the privilege to experience.
+                            Kuala Lumpur is a unique and vibrant multicultural city in South East Asia.
+                            Growing up there has given me the privilege to learn and interact with
+                            people from different background and identity.
                         </Card.Text>
                         <Card.Text>
                             On August of 2015, I came to the United States to pursue my Undergraduate degree.
-                            I ended up in Madison, Wisconsin and has been living here for more than 4 years.
-                            Coming abroad has been the best decision that I have made yet.
-                            This is because being so far from home and out of my comfort zone has
-                            motivated me to try new things and expand on my experiences.
-                            In fact, I have since experienced a huge personal growth and became a better
-                            person that I was.
+                            I ended up in Madison, Wisconsin and has been living here ever since.
                         </Card.Text>
                         {/* <Button variant="primary">Find out more!</Button> */}
                     </Card.Body>
                 </Card>
                 <Card className="InfoRow-Card Card-Right">
                     <Card.Body className="InfoRow-Card-Content">
-                        <Card.Title className="Card-Title">Fill in later</Card.Title>
+                        <Card.Title className="Card-Title"><b>Academics and career</b></Card.Title>
                         <Card.Text>
-                            With supporting text below as a natural lead-in to additional content.
+                            I am currently pursuing a Bachelor's Degree at University of Wisconsin - Madison.
+                            I double major in Computer Science and Biology and will be graduating in December of 2019.
                         </Card.Text>
                         {/* <Button variant="primary">Find out more!</Button> */}
                     </Card.Body>
-                    <Image className="InfoRow-Card-Image" src={PATH_TO_IMG} fluid />
+                    <Image className="InfoRow-Card-Image" src={PATH_TO_IMG2} fluid />
                 </Card>
                 
             </div>
