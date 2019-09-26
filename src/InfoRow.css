@@ -1,0 +1,14 @@
+.InfoRow-Card {
+    display: flex !important;
+    flex-direction: row !important;
+}
+
+.InfoRow-Card-Image {
+    /* TODO: Change as needed */
+    height: 250px;
+    width: 40vw;
+}
+
+.InfoRow-Card-Content {
+    padding: 3em; /* TODO: Change as needed */
+}

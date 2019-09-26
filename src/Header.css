@@ -1,0 +1,37 @@
+.Header {
+    /* Format */
+    position: fixed;
+    top: 0;
+    z-index: 1;
+
+    /* Box Model */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+
+    /* Typography */
+    color: #fa325a;
+
+    /* Style */
+    background-color: black;
+    box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2), 0px 4px 5px 0px rgba(0,0,0,0.14), 0px 1px 10px 0px rgba(0,0,0,0.12);
+}
+
+.My-Name {
+    margin-left: 1em;
+    align-self: center;
+}
+
+.Header-Item {
+    display: inline;
+    margin: 0 1em;
+}
+
+dl, ol, ul {
+    margin: 1em !important;
+}
+
+li {
+    cursor: pointer;
+}

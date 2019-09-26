@@ -1,0 +1,24 @@
+.AppJumbotron {
+    height: 90vh;
+}
+
+.jumbotron-custom {
+    height: 100%;
+    background: rgb(7,186,237);
+    background: linear-gradient(45deg, rgba(7,186,237,1) 0%, rgba(236,169,76,1) 62%, rgba(235,47,112,1) 100%);
+}
+
+.ghost-writer {
+    display: inline-block;
+    font-size: 50px;
+    color: black;
+}
+
+.typed-cursor {
+    font-size: 50px;
+}
+
+.container {
+    margin-top: 5em;
+    margin-left: 10em !important;
+}

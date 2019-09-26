@@ -1,0 +1,16 @@
+.Footer {
+    background-color: #5f5f5f;
+    color: white;
+    position: relative;
+    top: 0;
+    width: 100vw;
+}
+
+.Footer-Item {
+    display: block;
+    margin: 0 5em;
+}
+
+.Contact-Me {
+    margin: 0 50em;
+}
