@@ -6,13 +6,14 @@ import './InfoRow.css'
 
 
 const PATH_TO_IMG = require('./assets/images/workinprogress.jpg')
+const PATH_TO_IMG1 = require('./assets/images/KL.jpg')
 
 class InfoRow extends React.Component {
     render() {
         return(
             <div className="InfoRow">
                 <Card className="InfoRow-Card Card-Left">
-                    <Image className="InfoRow-Card-Image" src={PATH_TO_IMG} fluid />
+                    <Image className="InfoRow-Card-Image1" src={PATH_TO_IMG1} fluid />
                     <Card.Body className="InfoRow-Card-Content">
                         <Card.Title className="Card-Title">About Me</Card.Title>
                         <Card.Text>

@@ -10,6 +10,12 @@
     width: 40vw;
 }
 
+.InfoRow-Card-Image1 {
+    /* TODO: Change as needed */
+    height: 250px;
+    width: 40vw;
+}
+
 .InfoRow-Card-Content {
     padding: 3em; /* TODO: Change as needed */
     background-color: black;
