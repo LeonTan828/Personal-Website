@@ -14,4 +14,9 @@
     padding: 3em; /* TODO: Change as needed */
     background-color: black;
     color: white;
+    flex: 1 2 auto !important;
+}
+
+.Card-Title {
+    color: #fa325a;
 }
