@@ -1,6 +1,7 @@
 .InfoRow-Card {
     display: flex !important;
     flex-direction: row !important;
+    border: 0 !important;
 }
 
 .InfoRow-Card-Image {
@@ -11,4 +12,6 @@
 
 .InfoRow-Card-Content {
     padding: 3em; /* TODO: Change as needed */
+    background-color: black;
+    color: white;
 }
