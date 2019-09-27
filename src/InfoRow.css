@@ -2,19 +2,31 @@
     display: flex !important;
     flex-direction: row !important;
     border: 0 !important;
+    flex-wrap: wrap;
 }
 
 .InfoRow-Card-Image {
     /* TODO: Change as needed */
-    height: 250px;
-    width: 40vw;
+    max-width: 40%;
+    /* width: 50vw; */
+    height: auto;
 }
 
-.InfoRow-Card-Image1 {
-    /* TODO: Change as needed */
+.card-body {
+    max-width: 60%;
+}
+
+.InfoRow-Card-Image-Small {
+    max-width: 37%;
+}
+.InfoRow-Card-Content-Small {
+    max-width: 63%;
+}
+
+/* .InfoRow-Card-Image1 {
     height: 250px;
     width: 40vw;
-}
+} */
 
 .InfoRow-Card-Content {
     padding: 3em !important; /* TODO: Change as needed */

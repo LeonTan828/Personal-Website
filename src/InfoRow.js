@@ -17,7 +17,7 @@ class InfoRow extends React.Component {
         return(
             <div className="InfoRow">
                 <Card className="InfoRow-Card Card-Left">
-                    <Image className="InfoRow-Card-Image1" src={AboutMePic} fluid />
+                    <Image className="InfoRow-Card-Image" src={AboutMePic} />
                     <Card.Body className="InfoRow-Card-Content">
                         <Card.Title className="Card-Title"><b>About Me</b></Card.Title>
                         <Card.Text>
@@ -42,11 +42,11 @@ class InfoRow extends React.Component {
                         </Card.Text>
                         {/* <Button variant="primary">Find out more!</Button> */}
                     </Card.Body>
-                    <Image className="InfoRow-Card-Image" src={BascomPic} fluid />
+                    <Image className="InfoRow-Card-Image" src={BascomPic} />
                 </Card>
                 <Card className="InfoRow-Card Card-Left">
-                    <Image className="InfoRow-Card-Image1" src={MusicPic} fluid />
-                    <Card.Body className="InfoRow-Card-Content">
+                    <Image className="InfoRow-Card-Image-Small" src={MusicPic} />
+                    <Card.Body className="InfoRow-Card-Content InfoRow-Card-Content-Small">
                         <Card.Title className="Card-Title"><b>Interests - Music</b></Card.Title>
                         <Card.Text>
                             Although I major in STEM, I love art as well and have a great appreciation for it.
@@ -71,10 +71,10 @@ class InfoRow extends React.Component {
                         </Card.Text>
                         {/* <Button variant="primary">Find out more!</Button> */}
                     </Card.Body>
-                    <Image className="InfoRow-Card-Image" src={TravelPic} fluid />
+                    <Image className="InfoRow-Card-Image" src={TravelPic} />
                 </Card>
                 <Card className="InfoRow-Card Card-Left">
-                    <Image className="InfoRow-Card-Image1" src={StarCraftPic} fluid />
+                    <Image className="InfoRow-Card-Image" src={StarCraftPic} />
                     <Card.Body className="InfoRow-Card-Content">
                         <Card.Title className="Card-Title"><b>Interests - StarCraft II</b></Card.Title>
                         <Card.Text>
