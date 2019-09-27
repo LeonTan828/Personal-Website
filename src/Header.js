@@ -8,14 +8,14 @@ class Header extends React.Component {
         return (
             <div className="Header">
                 <div className="My-Name">
-                    Leon Tan
+                    <b>Leon Tan</b>
                 </div>
                 <div className="NavBar">
                     <ul>
                         {headerItems.map(item => (
                             <li className="Header-Item">
                                 <a>
-                                    {item}
+                                    <b>{item}</b>
                                 </a>
                             </li>
                         ))}
