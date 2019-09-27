@@ -79,10 +79,8 @@ class InfoRow extends React.Component {
                         <Card.Title className="Card-Title"><b>Interests - StarCraft II</b></Card.Title>
                         <Card.Text>
                             I am also an avid StarCraft II player and I started playing this game 2 years ago.
-                            Since I started playing StarCraft, I noticed an improvement in my critical thinking
-                            and problem solving skills.
-                            Playing this game has also taught me how to manage problems in a calmly manner.
-                            In addition, I was also able to hone my multitasking and organizational skills.
+                            Through StarCraft, I have improved my critical thinking, problem-solving, multitasking and organizational skills.
+                            Though I only started playing not too long ago, it has quickly grown to become my favorite game.
                         </Card.Text>
                         {/* <Button variant="primary">Find out more!</Button> */}
                     </Card.Body>
