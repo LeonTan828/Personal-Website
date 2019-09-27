@@ -5,10 +5,13 @@
     flex-wrap: wrap;
 }
 
-.InfoRow-Card-Image {
-    /* TODO: Change as needed */
+.image-container {
     max-width: 40%;
-    /* width: 50vw; */
+    background-color: black;
+}
+
+.InfoRow-Card-Image {
+    width: 100%;
     height: auto;
 }
 
@@ -16,7 +19,7 @@
     max-width: 60%;
 }
 
-.InfoRow-Card-Image-Small {
+.image-container-small {
     max-width: 37%;
 }
 .InfoRow-Card-Content-Small {

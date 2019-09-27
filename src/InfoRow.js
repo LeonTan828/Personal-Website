@@ -17,7 +17,10 @@ class InfoRow extends React.Component {
         return(
             <div className="InfoRow">
                 <Card className="InfoRow-Card Card-Left">
+                    <div className="image-container">
                     <Image className="InfoRow-Card-Image" src={AboutMePic} />
+                    </div>
+                    
                     <Card.Body className="InfoRow-Card-Content">
                         <Card.Title className="Card-Title"><b>About Me</b></Card.Title>
                         <Card.Text>
@@ -35,17 +38,21 @@ class InfoRow extends React.Component {
                 </Card>
                 <Card className="InfoRow-Card Card-Right">
                     <Card.Body className="InfoRow-Card-Content">
-                        <Card.Title className="Card-Title"><b>Academics and career</b></Card.Title>
+                        <Card.Title className="Card-Title"><b>Academics</b></Card.Title>
                         <Card.Text>
                             I am currently pursuing a Bachelor's Degree at University of Wisconsin - Madison.
                             I double major in Computer Science and Biology and will be graduating in December of 2019.
                         </Card.Text>
                         {/* <Button variant="primary">Find out more!</Button> */}
                     </Card.Body>
+                    <div className="image-container">
                     <Image className="InfoRow-Card-Image" src={BascomPic} />
+                    </div>
                 </Card>
                 <Card className="InfoRow-Card Card-Left">
-                    <Image className="InfoRow-Card-Image-Small" src={MusicPic} />
+                    <div className="image-container image-container-small">
+                    <Image className="InfoRow-Card-Image" src={MusicPic} />
+                    </div>
                     <Card.Body className="InfoRow-Card-Content InfoRow-Card-Content-Small">
                         <Card.Title className="Card-Title"><b>Interests - Music</b></Card.Title>
                         <Card.Text>
@@ -71,10 +78,14 @@ class InfoRow extends React.Component {
                         </Card.Text>
                         {/* <Button variant="primary">Find out more!</Button> */}
                     </Card.Body>
+                    <div className="image-container">
                     <Image className="InfoRow-Card-Image" src={TravelPic} />
+                    </div>
                 </Card>
                 <Card className="InfoRow-Card Card-Left">
+                    <div className="image-container">
                     <Image className="InfoRow-Card-Image" src={StarCraftPic} />
+                    </div>
                     <Card.Body className="InfoRow-Card-Content">
                         <Card.Title className="Card-Title"><b>Interests - StarCraft II</b></Card.Title>
                         <Card.Text>
