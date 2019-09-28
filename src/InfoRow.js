@@ -69,7 +69,7 @@ class InfoRow extends React.Component {
                         <Card.Title className="Card-Title"><b>Interests - Travelling</b></Card.Title>
                         <Card.Text>
                             Another thing I like to do is to travel.
-                            In fact, whenever I get the chance, I would choose to solo travel to a place
+                            In fact, whenever I get the chance, I would choose to solo travel to places
                             I have never been before.
                             The reason for this is because I find it to be the best way
                             to truly immerse myself into the local culture the place has to offer.
