@@ -10,8 +10,8 @@ class Header extends React.Component {
                 <div className="My-Name">
                     <b>Leon Tan</b>
                 </div>
-                <div className="NavBar">
-                    <ul>
+                <div>
+                    <ul className="NavBar">
                         {headerItems.map(item => (
                             <li className="Header-Item">
                                 <a>

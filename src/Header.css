@@ -12,6 +12,7 @@
 
     /* Typography */
     color: #fa325a;
+    letter-spacing: 1px;
 
     /* Style */
     background-color: black;
@@ -28,10 +29,14 @@
     margin: 0 1em;
 }
 
-dl, ol, ul {
+.NavBar {
     margin: 1em !important;
 }
 
 li {
     cursor: pointer;
+}
+
+a:hover {
+    color: white !important;
 }
