@@ -35,7 +35,7 @@ class AppJumbotron extends React.Component {
 
     render() {
         return (
-            <div className="AppJumbotron">
+            <div className="AppJumbotron" id="page-top">
                 <Jumbotron className="jumbotron-custom" fluid>
                     <Container>
                         <div className="ghost-writer" ref={this.ghostWriterRef}></div>

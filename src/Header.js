@@ -6,7 +6,7 @@ class Header extends React.Component {
         return (
             <div className="Header">
                 <div className="My-Name">
-                    <a>
+                    <a href="#page-top">
                         <b>Leon Tan</b>
                     </a>
                 </div>
