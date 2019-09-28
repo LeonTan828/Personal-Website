@@ -24,7 +24,7 @@ class InfoRow extends React.Component {
                     <Card.Body className="InfoRow-Card-Content">
                         <Card.Title className="Card-Title"><b>About Me</b></Card.Title>
                         <Card.Text>
-                            My name is Leon Tan and I was born and raised in Kuala Lumpur, Malaysia.
+                            I was born and raised in Kuala Lumpur, Malaysia.
                             Kuala Lumpur is a unique and vibrant multicultural city in South East Asia.
                             Growing up there has given me the privilege to learn and interact with
                             people from different background and identity.

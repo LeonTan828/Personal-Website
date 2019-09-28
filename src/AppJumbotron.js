@@ -17,7 +17,7 @@ class AppJumbotron extends React.Component {
 
     componentDidMount = () => {
         var options = {
-            strings: ['<b>Hello!</b>', '<b>My name is Leon</b>', '<b>Welcome to my personal website</b>', '<b>Scroll down to learn more about me!</b>'],
+            strings: ['<b>Hello!</b>', '<b>My name is Leon Tan</b>', '<b>Welcome to my personal website</b>', '<b>Scroll down to learn more about me!</b>'],
             typeSpeed: 50,
             backSpeed: 50,
             loop: true,
