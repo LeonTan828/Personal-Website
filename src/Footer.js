@@ -8,13 +8,26 @@ class Footer extends React.Component {
         return (
             <div className="Footer">
                 <ul className="Footer-List">
-                    {footerItems.map(item => (
-                        <li className="Footer-Item">
-                            <a className="links">
-                                {item}
-                            </a>
-                        </li>
-                    ))}
+                    <li className="Footer-Item">
+                        <a className="links" href="mailto:tan49@wisc.com">
+                            Email
+                        </a>
+                    </li>
+                    <li className="Footer-Item">
+                        <a className="links" href="https://www.linkedin.com/in/leon-yl-tan">
+                            LinkedIn
+                        </a>
+                    </li>
+                    <li className="Footer-Item">
+                        <a className="links" href="https://github.com/LeonTan828">
+                            GitHub
+                        </a>
+                    </li>
+                    <li className="Footer-Item">
+                        <a className="links">
+                            Resume
+                        </a>
+                    </li>
                 </ul>
             </div>
         )
