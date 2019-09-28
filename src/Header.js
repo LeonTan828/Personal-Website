@@ -32,11 +32,6 @@ class Header extends React.Component {
                                 <b>Resume</b>
                             </a>
                         </li>
-                        <li className="Header-Item">
-                            <a>
-                                <b>Contact Me</b>
-                            </a>
-                        </li>
                     </ul>
                 </div>
 
