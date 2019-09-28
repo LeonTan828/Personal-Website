@@ -4,13 +4,25 @@
     position: relative;
     top: 0;
     width: 100vw;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 2px;
+}
+
+.Footer-List {
+    text-align: center;
+    padding: 2vw 6vw;
+    margin: 0;
 }
 
 .Footer-Item {
-    display: block;
-    margin: 0 5em;
+    display: inline;
+    margin: 0 7vw;
 }
 
-.Contact-Me {
-    margin: 0 50em;
+.links {
+    cursor: pointer;
+}
+
+.links:hover {
+    color: #fa325a !important;
 }

@@ -3,22 +3,19 @@ import './Footer.css'
 
 class Footer extends React.Component {
     render() {
-        const headerItems = ["Home", "About Me", "Academics", "Interests", "Resume", "Contact Me"]
+        const footerItems = ["Email", "LinkedIn", "GitHub", "Resume"]
 
         return (
             <div className="Footer">
-                <ul>
-                    {headerItems.map(item => (
+                <ul className="Footer-List">
+                    {footerItems.map(item => (
                         <li className="Footer-Item">
-                            <a>
+                            <a className="links">
                                 {item}
                             </a>
                         </li>
                     ))}
                 </ul>
-                <div className="Contact-Me">
-                    phone and email here
-                </div>
             </div>
         )
     }
