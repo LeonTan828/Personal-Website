@@ -1,6 +1,6 @@
 .Footer {
     background-color: #5f5f5f;
-    color: white;
+    color: white !important;
     position: relative;
     top: 0;
     width: 100vw;
@@ -21,6 +21,7 @@
 
 .links {
     cursor: pointer;
+    color: white !important;
 }
 
 .links:hover {
