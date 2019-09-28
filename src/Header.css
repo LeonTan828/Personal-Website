@@ -19,17 +19,18 @@
 }
 
 .My-Name {
-    margin-left: 1em;
+    margin-left: 5vw;
     align-self: center;
 }
 
 .Header-Item {
     display: inline;
-    margin: 0 1em;
+    margin: 0 2vw;
 }
 
 .NavBar {
-    margin: 1em !important;
+    margin: 1vw !important;
+    margin-right: 5vw !important;
 }
 
 li {
