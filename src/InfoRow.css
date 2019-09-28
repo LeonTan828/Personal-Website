@@ -32,7 +32,7 @@
 } */
 
 .InfoRow-Card-Content {
-    padding: 3em !important; /* TODO: Change as needed */
+    padding: 4em !important; /* TODO: Change as needed */
     background-color: black;
     color: white;
     flex: 1 2 auto !important;

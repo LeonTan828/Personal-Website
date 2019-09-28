@@ -3,22 +3,40 @@ import './Header.css'
 
 class Header extends React.Component {
     render() {
-        const headerItems = ["About Me", "Academics", "Interests", "Resume", "Contact Me"]
-
         return (
             <div className="Header">
                 <div className="My-Name">
-                    <b>Leon Tan</b>
+                    <a>
+                        <b>Leon Tan</b>
+                    </a>
                 </div>
                 <div>
                     <ul className="NavBar">
-                        {headerItems.map(item => (
-                            <li className="Header-Item">
-                                <a>
-                                    <b>{item}</b>
-                                </a>
-                            </li>
-                        ))}
+                        <li className="Header-Item">
+                            <a href="#AboutMe-row">
+                                <b>About Me</b>
+                            </a>
+                        </li>
+                        <li className="Header-Item">
+                            <a href="#Academics-row">
+                                <b>Academics</b>
+                            </a>
+                        </li>
+                        <li className="Header-Item">
+                            <a href="#Interests-row">
+                                <b>Interests</b>
+                            </a>
+                        </li>
+                        <li className="Header-Item">
+                            <a>
+                                <b>Resume</b>
+                            </a>
+                        </li>
+                        <li className="Header-Item">
+                            <a>
+                                <b>Contact Me</b>
+                            </a>
+                        </li>
                     </ul>
                 </div>
 

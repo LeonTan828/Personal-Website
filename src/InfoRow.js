@@ -16,7 +16,7 @@ class InfoRow extends React.Component {
     render() {
         return(
             <div className="InfoRow">
-                <Card className="InfoRow-Card Card-Left">
+                <Card className="InfoRow-Card Card-Left" id="AboutMe-row">
                     <div className="image-container">
                     <Image className="InfoRow-Card-Image" src={AboutMePic} />
                     </div>
@@ -36,7 +36,7 @@ class InfoRow extends React.Component {
                         {/* <Button variant="primary">Find out more!</Button> */}
                     </Card.Body>
                 </Card>
-                <Card className="InfoRow-Card Card-Right">
+                <Card className="InfoRow-Card Card-Right" id="Academics-row">
                     <Card.Body className="InfoRow-Card-Content">
                         <Card.Title className="Card-Title"><b>Academics</b></Card.Title>
                         <Card.Text>
@@ -49,7 +49,7 @@ class InfoRow extends React.Component {
                     <Image className="InfoRow-Card-Image" src={BascomPic} />
                     </div>
                 </Card>
-                <Card className="InfoRow-Card Card-Left">
+                <Card className="InfoRow-Card Card-Left" id="Interests-row">
                     <div className="image-container image-container-small">
                     <Image className="InfoRow-Card-Image" src={MusicPic} />
                     </div>
