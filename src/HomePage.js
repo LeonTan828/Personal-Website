@@ -15,7 +15,7 @@ class Display extends React.Component {
                 <Header />
                 <AppJumbotron />
                 <InfoRow />
-                {/* <Footer /> */}
+                <Footer />
             </div>
         )
     }
