@@ -3,7 +3,7 @@ import './Header.css'
 
 class Header extends React.Component {
     render() {
-        const headerItems = ["Home", "About Me", "Academics", "Interests", "Resume", "Contact Me"]
+        const headerItems = ["About Me", "Academics", "Interests", "Resume", "Contact Me"]
 
         return (
             <div className="Header">
