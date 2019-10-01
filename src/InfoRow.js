@@ -22,7 +22,7 @@ class InfoRow extends React.Component {
                     </div>
                     
                     <Card.Body className="InfoRow-Card-Content">
-                        <Card.Title className="Card-Title"><b>About Me</b></Card.Title>
+                        <Card.Title className="Card-Title"><h2><b>About Me</b></h2></Card.Title>
                         <Card.Text>
                             I was born and raised in Kuala Lumpur, Malaysia.
                             Kuala Lumpur is a unique and vibrant multicultural city in South East Asia.
@@ -38,7 +38,7 @@ class InfoRow extends React.Component {
                 </Card>
                 <Card className="InfoRow-Card Card-Right" id="Academics-row">
                     <Card.Body className="InfoRow-Card-Content">
-                        <Card.Title className="Card-Title"><b>Academics</b></Card.Title>
+                        <Card.Title className="Card-Title"><h2><b>Academics</b></h2></Card.Title>
                         <Card.Text>
                             I am currently pursuing a Bachelor's Degree at University of Wisconsin - Madison.
                             I double major in Computer Science and Biology and will be graduating in December of 2019.
@@ -49,12 +49,31 @@ class InfoRow extends React.Component {
                     <Image className="InfoRow-Card-Image" src={BascomPic} />
                     </div>
                 </Card>
+                <Card className="InfoRow-Card Card-Both" id="Work-row">
+                    <Card.Body className="InfoRow-Card-Content Half-Card">
+                        <Card.Title className="Card-Title"><h2><b>Work Experience</b></h2></Card.Title>
+                        <Card.Text>
+                            I am currently pursuing a Bachelor's Degree at University of Wisconsin - Madison.
+                            I double major in Computer Science and Biology and will be graduating in December of 2019.
+                        </Card.Text>
+                        {/* <Button variant="primary">Find out more!</Button> */}
+                    </Card.Body>
+                    <Card.Body className="InfoRow-Card-Content Half-Card">
+                        <Card.Title className="Card-Title"><b>Academics</b></Card.Title>
+                        <Card.Text>
+                            I am currently pursuing a Bachelor's Degree at University of Wisconsin - Madison.
+                            I double major in Computer Science and Biology and will be graduating in December of 2019.
+                        </Card.Text>
+                        {/* <Button variant="primary">Find out more!</Button> */}
+                    </Card.Body>
+                </Card>
+         
                 <Card className="InfoRow-Card Card-Left" id="Interests-row">
                     <div className="image-container image-container-small">
                     <Image className="InfoRow-Card-Image" src={MusicPic} />
                     </div>
                     <Card.Body className="InfoRow-Card-Content InfoRow-Card-Content-Small">
-                        <Card.Title className="Card-Title"><b>Interests - Music</b></Card.Title>
+                        <Card.Title className="Card-Title"><h2><b>Interests - Music</b></h2></Card.Title>
                         <Card.Text>
                             Although I major in STEM, I love art as well and have a great appreciation for it.
                             Of all the different forms of art available, music is my favourite.
@@ -66,7 +85,7 @@ class InfoRow extends React.Component {
                 </Card>
                 <Card className="InfoRow-Card Card-Right">
                     <Card.Body className="InfoRow-Card-Content">
-                        <Card.Title className="Card-Title"><b>Interests - Travelling</b></Card.Title>
+                        <Card.Title className="Card-Title"><h2><b>Interests - Travelling</b></h2></Card.Title>
                         <Card.Text>
                             Another thing I like to do is to travel.
                             In fact, whenever I get the chance, I would choose to solo travel to places
@@ -87,7 +106,7 @@ class InfoRow extends React.Component {
                     <Image className="InfoRow-Card-Image" src={StarCraftPic} />
                     </div>
                     <Card.Body className="InfoRow-Card-Content">
-                        <Card.Title className="Card-Title"><b>Interests - StarCraft II</b></Card.Title>
+                        <Card.Title className="Card-Title"><h2><b>Interests - StarCraft II</b></h2></Card.Title>
                         <Card.Text>
                             I am also an avid StarCraft II player and I started playing this game 2 years ago.
                             Through StarCraft, I have improved my critical thinking, problem-solving, multitasking and organizational skills.
