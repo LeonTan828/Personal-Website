@@ -9,17 +9,17 @@ class Footer extends React.Component {
             <div className="Footer">
                 <ul className="Footer-List">
                     <li className="Footer-Item">
-                        <a className="links" href="mailto:tan49@wisc.com">
+                        <a className="links" href="mailto:tan49@wisc.com" target="_blank">
                             Email
                         </a>
                     </li>
                     <li className="Footer-Item">
-                        <a className="links" href="https://www.linkedin.com/in/leon-yl-tan">
+                        <a className="links" href="https://www.linkedin.com/in/leon-yl-tan" target="_blank">
                             LinkedIn
                         </a>
                     </li>
                     <li className="Footer-Item">
-                        <a className="links" href="https://github.com/LeonTan828">
+                        <a className="links" href="https://github.com/LeonTan828" target="_blank">
                             GitHub
                         </a>
                     </li>
