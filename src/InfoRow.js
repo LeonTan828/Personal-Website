@@ -55,7 +55,7 @@ class InfoRow extends React.Component {
                         <Card.Text>
                             During the summer of 2019, I worked with a professor to analyze open data
                             available on the city of Madison. I decided to look at crime data and used
-                            python to generate graphs and animations from it.
+                            Python to generate graphs and animations from it.
                         </Card.Text>
                     </Card.Body>
                     <Card.Body className="InfoRow-Card-Content Half-Card">
