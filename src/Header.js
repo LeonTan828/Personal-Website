@@ -23,6 +23,11 @@ class Header extends React.Component {
                             </a>
                         </li>
                         <li className="Header-Item">
+                            <a href="#Work-row">
+                                <b>Work Experience</b>
+                            </a>
+                        </li>
+                        <li className="Header-Item">
                             <a href="#Interests-row">
                                 <b>Interests</b>
                             </a>
