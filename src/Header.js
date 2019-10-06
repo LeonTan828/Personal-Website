@@ -1,5 +1,6 @@
 import React from 'react';
 import './Header.css'
+import Pdf from './assets/Resume.pdf';
 
 class Header extends React.Component {
     render() {
@@ -33,7 +34,7 @@ class Header extends React.Component {
                             </a>
                         </li>
                         <li className="Header-Item">
-                            <a>
+                            <a href={Pdf} target="_blank">
                                 <b>Resume</b>
                             </a>
                         </li>

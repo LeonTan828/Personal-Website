@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer.css'
+import Pdf from './assets/Resume.pdf';
 
 class Footer extends React.Component {
     render() {
@@ -24,7 +25,7 @@ class Footer extends React.Component {
                         </a>
                     </li>
                     <li className="Footer-Item">
-                        <a className="links">
+                        <a className="links" href={Pdf} target="_blank">
                             Resume
                         </a>
                     </li>
