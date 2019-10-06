@@ -23,10 +23,6 @@
     max-width: 60%;
 }
 
-.Half-Card {
-    max-width: 100%;
-}
-
 .image-container-small {
     max-width: 37%;
 }
@@ -44,6 +40,16 @@
     background-color: black;
     color: white;
     flex: 1 2 auto !important;
+}
+
+.WorkEx-Title {
+    display: flex;
+    justify-content: center;
+}
+
+.Half-Card {
+    max-width: 100%;
+    padding: 2em 10em !important;
 }
 
 .Card-Title {

@@ -51,7 +51,7 @@ class InfoRow extends React.Component {
                 </Card>
                 <Card className="InfoRow-Card Card-Both" id="Work-row">
                     <Card.Body className="InfoRow-Card-Content Half-Card">
-                        <Card.Title className="Card-Title"><h2><b>Work Experience</b></h2></Card.Title>
+                        <Card.Title className="Card-Title WorkEx-Title"><h2><b>Work Experience</b></h2></Card.Title>
                         <Card.Text><h4>Research Data Analyst</h4></Card.Text>
                         <Card.Text>
                             During the summer of 2019, I worked with a professor to analyze open data
