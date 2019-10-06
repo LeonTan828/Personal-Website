@@ -5,6 +5,10 @@
     flex-wrap: wrap;
 }
 
+.Card-Both {
+    flex-direction: column !important;
+}
+
 .image-container {
     max-width: 40%;
     background-color: black;
@@ -20,7 +24,7 @@
 }
 
 .Half-Card {
-    max-width: 50%;
+    max-width: 100%;
 }
 
 .image-container-small {
