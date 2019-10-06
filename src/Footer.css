@@ -1,5 +1,5 @@
 .Footer {
-    background-color: #5f5f5f;
+    background-color: #202020;
     color: white !important;
     position: relative;
     top: 0;
@@ -10,7 +10,7 @@
 
 .Footer-List {
     text-align: center;
-    padding: 2vw 6vw;
+    padding: 0.75vw 6vw;
     margin: 0;
 }
 
