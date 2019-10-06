@@ -52,7 +52,7 @@ class InfoRow extends React.Component {
                 <Card className="InfoRow-Card Card-Both" id="Work-row">
                     <Card.Body className="InfoRow-Card-Content Half-Card">
                         <Card.Title className="Card-Title WorkEx-Title"><h2><b>Work Experience</b></h2></Card.Title>
-                        <Card.Text><h4>Research Data Analyst</h4></Card.Text>
+                        <Card.Text className="Work-Title"><h4>Research Data Analyst</h4></Card.Text>
                         <Card.Text>
                             During the summer of 2019, I worked with a professor to analyze open data
                             available on the city of Madison. I decided to look at crime data and used
@@ -60,7 +60,7 @@ class InfoRow extends React.Component {
                         </Card.Text>
                     </Card.Body>
                     <Card.Body className="InfoRow-Card-Content Half-Card">
-                        <Card.Text><h4>Help Desk Student Developer</h4></Card.Text>
+                        <Card.Text className="Work-Title"><h4>Help Desk Student Developer</h4></Card.Text>
                         <Card.Text>
                             For the summer of 2018, I was a Student Developer at UW - Madison
                             DoIT Help Desk. My task was to maintain and improve the web applications
@@ -69,7 +69,7 @@ class InfoRow extends React.Component {
                         </Card.Text>
                     </Card.Body>
                     <Card.Body className="InfoRow-Card-Content Half-Card">
-                        <Card.Text><h4>Help Desk Quality Assurance</h4></Card.Text>
+                        <Card.Text className="Work-Title"><h4>Help Desk Quality Assurance</h4></Card.Text>
                         <Card.Text>
                             After having worked at the DoIT Help Desk for almost 2 years, I was
                             promoted to the position of Help Desk Quality Assurance. As HDQA, I was
@@ -79,7 +79,7 @@ class InfoRow extends React.Component {
                         </Card.Text>
                     </Card.Body>
                     <Card.Body className="InfoRow-Card-Content Half-Card">
-                        <Card.Text><h4>DoIT Representative</h4></Card.Text>
+                        <Card.Text className="Work-Title"><h4>DoIT Representative</h4></Card.Text>
                         <Card.Text>
                             In the summer of 2017, I was fortunate enough to be selected as a
                             DoIT Representative for UW - Madison's student orientation. My tasks

@@ -45,11 +45,16 @@
 .WorkEx-Title {
     display: flex;
     justify-content: center;
+    padding-top: 1.5em;
 }
 
 .Half-Card {
     max-width: 100%;
-    padding: 2em 10em !important;
+    padding: 1em 10em 3.5em 10em !important;
+}
+
+.Work-Title {
+    color: #F5B041 !important;
 }
 
 .Card-Title {
