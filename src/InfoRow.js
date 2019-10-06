@@ -52,19 +52,41 @@ class InfoRow extends React.Component {
                 <Card className="InfoRow-Card Card-Both" id="Work-row">
                     <Card.Body className="InfoRow-Card-Content Half-Card">
                         <Card.Title className="Card-Title"><h2><b>Work Experience</b></h2></Card.Title>
+                        <Card.Text><h4>Research Data Analyst</h4></Card.Text>
                         <Card.Text>
-                            I am currently pursuing a Bachelor's Degree at University of Wisconsin - Madison.
-                            I double major in Computer Science and Biology and will be graduating in December of 2019.
+                            During the summer of 2019, I worked with a professor to analyze open data
+                            available on the city of Madison. I decided to look at crime data and used
+                            python to generate graphs and animations from it.
                         </Card.Text>
-                        {/* <Button variant="primary">Find out more!</Button> */}
                     </Card.Body>
                     <Card.Body className="InfoRow-Card-Content Half-Card">
-                        <Card.Title className="Card-Title"><b>Academics</b></Card.Title>
+                        <Card.Text><h4>Help Desk Student Developer</h4></Card.Text>
                         <Card.Text>
-                            I am currently pursuing a Bachelor's Degree at University of Wisconsin - Madison.
-                            I double major in Computer Science and Biology and will be graduating in December of 2019.
+                            For the summer of 2018, I was a Student Developer at UW - Madison
+                            DoIT Help Desk. My task was to maintain and improve the web applications
+                            used by the help desk agents, so that they can assist their customers more
+                            effectively and efficiently.
                         </Card.Text>
-                        {/* <Button variant="primary">Find out more!</Button> */}
+                    </Card.Body>
+                    <Card.Body className="InfoRow-Card-Content Half-Card">
+                        <Card.Text><h4>Help Desk Quality Assurance</h4></Card.Text>
+                        <Card.Text>
+                            After having worked at the DoIT Help Desk for almost 2 years, I was
+                            promoted to the position of Help Desk Quality Assurance. As HDQA, I was
+                            given the opportunity to lead and assist my fellow help desk agents.
+                            As such, I have gained valuable communication, critical thinking and
+                            leadership skills from this position.
+                        </Card.Text>
+                    </Card.Body>
+                    <Card.Body className="InfoRow-Card-Content Half-Card">
+                        <Card.Text><h4>DoIT Representative</h4></Card.Text>
+                        <Card.Text>
+                            In the summer of 2017, I was fortunate enough to be selected as a
+                            DoIT Representative for UW - Madison's student orientation. My tasks
+                            involved giving public presentations and handling Q&A sessions.
+                            Through that, I was able to pick up public speaking and communication
+                            skills.
+                        </Card.Text>
                     </Card.Body>
                 </Card>
          
