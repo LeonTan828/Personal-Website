@@ -20,7 +20,6 @@ class InfoRow extends React.Component {
                     <div className="image-container">
                     <Image className="InfoRow-Card-Image" src={AboutMePic} />
                     </div>
-                    
                     <Card.Body className="InfoRow-Card-Content">
                         <Card.Title className="Card-Title"><h2><b>About Me</b></h2></Card.Title>
                         <Card.Text>
