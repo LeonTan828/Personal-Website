@@ -11,7 +11,11 @@
 
 .image-container {
     max-width: 40%;
-    background-color: black;
+    background-color: #131317;
+}
+
+.img-alt{
+    background-color: #882e40;
 }
 
 .InfoRow-Card-Image {
@@ -25,6 +29,7 @@
 
 .image-container-small {
     max-width: 37%;
+    background-color: #131317;
 }
 .InfoRow-Card-Content-Small {
     max-width: 63%;
@@ -37,9 +42,14 @@
 
 .InfoRow-Card-Content {
     padding: 4em !important; /* TODO: Change as needed */
-    background-color: black;
+    background-color: #131317;
     color: white;
     flex: 1 2 auto !important;
+}
+
+.Content-Disp-Alt {
+    background-color: #882e40;
+    color: white;
 }
 
 .WorkEx-Title {
@@ -59,4 +69,8 @@
 
 .Card-Title {
     color: #fa325a;
+}
+
+.Title-alt {
+    color: black;
 }

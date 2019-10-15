@@ -36,15 +36,15 @@ class InfoRow extends React.Component {
                     </Card.Body>
                 </Card>
                 <Card className="InfoRow-Card Card-Right" id="Academics-row">
-                    <Card.Body className="InfoRow-Card-Content">
-                        <Card.Title className="Card-Title"><h2><b>Academics</b></h2></Card.Title>
+                    <Card.Body className="InfoRow-Card-Content Content-Disp-Alt">
+                        <Card.Title className="Card-Title Title-alt"><h2><b>Academics</b></h2></Card.Title>
                         <Card.Text>
                             I am currently pursuing a Bachelor's Degree at University of Wisconsin - Madison.
                             I double major in Computer Science and Biology and will be graduating in December of 2019.
                         </Card.Text>
                         {/* <Button variant="primary">Find out more!</Button> */}
                     </Card.Body>
-                    <div className="image-container">
+                    <div className="image-container img-alt">
                     <Image className="InfoRow-Card-Image" src={BascomPic} />
                     </div>
                 </Card>
@@ -90,11 +90,11 @@ class InfoRow extends React.Component {
                 </Card>
          
                 <Card className="InfoRow-Card Card-Left" id="Interests-row">
-                    <div className="image-container image-container-small">
+                    <div className="image-container image-container-small img-alt">
                     <Image className="InfoRow-Card-Image" src={MusicPic} />
                     </div>
-                    <Card.Body className="InfoRow-Card-Content InfoRow-Card-Content-Small">
-                        <Card.Title className="Card-Title"><h2><b>Interests - Music</b></h2></Card.Title>
+                    <Card.Body className="InfoRow-Card-Content InfoRow-Card-Content-Small Content-Disp-Alt">
+                        <Card.Title className="Card-Title Title-alt"><h2><b>Interests - Music</b></h2></Card.Title>
                         <Card.Text>
                             Although I major in STEM, I love art as well and have a great appreciation for it.
                             Of all the different forms of art available, music is my favorite.
@@ -123,11 +123,11 @@ class InfoRow extends React.Component {
                     </div>
                 </Card>
                 <Card className="InfoRow-Card Card-Left">
-                    <div className="image-container">
+                    <div className="image-container img-alt">
                     <Image className="InfoRow-Card-Image" src={StarCraftPic} />
                     </div>
-                    <Card.Body className="InfoRow-Card-Content">
-                        <Card.Title className="Card-Title"><h2><b>Interests - StarCraft II</b></h2></Card.Title>
+                    <Card.Body className="InfoRow-Card-Content Content-Disp-Alt">
+                        <Card.Title className="Card-Title Title-alt"><h2><b>Interests - StarCraft II</b></h2></Card.Title>
                         <Card.Text>
                             I am also an avid StarCraft II player and I started playing this game 2 years ago.
                             Through StarCraft, I have improved my critical thinking, problem-solving, multitasking and organizational skills.
