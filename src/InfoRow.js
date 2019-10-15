@@ -26,11 +26,11 @@ class InfoRow extends React.Component {
                             I was born and raised in Kuala Lumpur, Malaysia.
                             Kuala Lumpur is a unique and vibrant multicultural city in South East Asia.
                             Growing up there has given me the privilege to learn and interact with
-                            people from different background and identity.
+                            people from different backgrounds and identities.
                         </Card.Text>
                         <Card.Text>
-                            On August of 2015, I came to the United States to pursue my Undergraduate degree.
-                            I ended up in Madison, Wisconsin and has been living here ever since.
+                            On August of 2015, I came to the United States to pursue my undergraduate degree.
+                            I ended up in Madison, Wisconsin and have been living here ever since.
                         </Card.Text>
                         {/* <Button variant="primary">Find out more!</Button> */}
                     </Card.Body>
@@ -63,7 +63,7 @@ class InfoRow extends React.Component {
                         <Card.Text>
                             For the summer of 2018, I was a Student Developer at UW - Madison
                             DoIT Help Desk. My task was to maintain and improve the web applications
-                            used by the help desk agents, so that they can assist their customers more
+                            used by the help desk agents so that they can assist their customers more
                             effectively and efficiently.
                         </Card.Text>
                     </Card.Body>
@@ -97,9 +97,9 @@ class InfoRow extends React.Component {
                         <Card.Title className="Card-Title"><h2><b>Interests - Music</b></h2></Card.Title>
                         <Card.Text>
                             Although I major in STEM, I love art as well and have a great appreciation for it.
-                            Of all the different forms of art available, music is my favourite.
+                            Of all the different forms of art available, music is my favorite.
                             Listening to music is my favorite way to relax and spend my free time.
-                            The music genre that I most frequently listen to are Hip Hop, RnB and Soul.
+                            The music genres that I most frequently listen to are Hip Hop, RnB and Soul.
                         </Card.Text>
                         {/* <Button variant="primary">Find out more!</Button> */}
                     </Card.Body>
@@ -110,9 +110,9 @@ class InfoRow extends React.Component {
                         <Card.Text>
                             Another thing I like to do is to travel.
                             In fact, whenever I get the chance, I would choose to solo travel to places
-                            I have never been before.
+                            I have never been to before.
                             The reason for this is because I find it to be the best way
-                            to truly immerse myself into the local culture the place has to offer.
+                            to truly immerse myself in the local culture the place has to offer.
                             It's also a great way to put myself out of my comfort zone and enable myself
                             to grow and improve in ways that I usually can't.
                         </Card.Text>
