@@ -48,7 +48,7 @@
 }
 
 .Content-Disp-Alt {
-    background-color: #882e40;
+    background-color: rgb(88, 88, 88);
     color: white;
 }
 
@@ -72,5 +72,5 @@
 }
 
 .Title-alt {
-    color: black;
+    color: #fa325a;
 }

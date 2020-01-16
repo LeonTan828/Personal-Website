@@ -39,8 +39,9 @@ class InfoRow extends React.Component {
                     <Card.Body className="InfoRow-Card-Content Content-Disp-Alt">
                         <Card.Title className="Card-Title Title-alt"><h2><b>Academics</b></h2></Card.Title>
                         <Card.Text>
-                            I am currently pursuing a Bachelor's Degree at University of Wisconsin - Madison.
-                            I double major in Computer Science and Biology and will be graduating in December of 2019.
+                            I graduated from University of Wisconsin - Madison on December 2019 and was awarded
+                            a B.S. in Computer Science and Biology. I am currently looking for full time software
+                            engineering positions.
                         </Card.Text>
                         {/* <Button variant="primary">Find out more!</Button> */}
                     </Card.Body>
