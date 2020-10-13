@@ -52,6 +52,25 @@ class InfoRow extends React.Component {
                 <Card className="InfoRow-Card Card-Both" id="Work-row">
                     <Card.Body className="InfoRow-Card-Content Half-Card">
                         <Card.Title className="Card-Title WorkEx-Title"><h2><b>Work Experience</b></h2></Card.Title>
+                        <Card.Text className="Work-Title"><h4>Project Coordinator</h4></Card.Text>
+                        <Card.Text>
+                            After I graduated, I started a volunteer position with the Academy for Surgical Coaching
+                            to gain some experience. I helped setup their data management system and designed automation
+                            workflow to help facilitate outreach and collaborations. The volunteer position ended up turning
+                            into a paid position and I am currently still working with them. 
+                        </Card.Text>
+                    </Card.Body>
+                    <Card.Body className="InfoRow-Card-Content Half-Card">
+                        <Card.Text className="Work-Title"><h4>IAM Administrator</h4></Card.Text>
+                        <Card.Text>
+                            In addition to working as the Project Coordinator, I also returned to UW Madison DoIT, where I
+                            used to work at while I was still a student. On top of usual administration work, I also helped out
+                            with various tasks such as data analysis or process automation, which leveraged my coding skills.
+                            I was also fortunate enough to shadow the team while they are redesigning their IAM system and helped out
+                            with the documentations.
+                        </Card.Text>
+                    </Card.Body>
+                    <Card.Body className="InfoRow-Card-Content Half-Card">
                         <Card.Text className="Work-Title"><h4>Research Data Analyst</h4></Card.Text>
                         <Card.Text>
                             During the summer of 2019, I worked with a professor to analyze open data
@@ -60,32 +79,12 @@ class InfoRow extends React.Component {
                         </Card.Text>
                     </Card.Body>
                     <Card.Body className="InfoRow-Card-Content Half-Card">
-                        <Card.Text className="Work-Title"><h4>Help Desk Student Developer</h4></Card.Text>
+                        <Card.Text className="Work-Title"><h4>Junior Developer</h4></Card.Text>
                         <Card.Text>
-                            For the summer of 2018, I was a Student Developer at UW - Madison
+                            For the summer of 2018, I was a Junior Developer at UW - Madison
                             DoIT Help Desk. My task was to maintain and improve the web applications
                             used by the help desk agents so that they can assist their customers more
                             effectively and efficiently.
-                        </Card.Text>
-                    </Card.Body>
-                    <Card.Body className="InfoRow-Card-Content Half-Card">
-                        <Card.Text className="Work-Title"><h4>Help Desk Quality Assurance</h4></Card.Text>
-                        <Card.Text>
-                            After having worked at the DoIT Help Desk for almost 2 years, I was
-                            promoted to the position of Help Desk Quality Assurance. As HDQA, I was
-                            given the opportunity to lead and assist my fellow help desk agents.
-                            As such, I have gained valuable communication, critical thinking and
-                            leadership skills from this position.
-                        </Card.Text>
-                    </Card.Body>
-                    <Card.Body className="InfoRow-Card-Content Half-Card">
-                        <Card.Text className="Work-Title"><h4>DoIT Representative</h4></Card.Text>
-                        <Card.Text>
-                            In the summer of 2017, I was fortunate enough to be selected as a
-                            DoIT Representative for UW - Madison's student orientation. My tasks
-                            involved giving public presentations and handling Q&A sessions.
-                            Through that, I was able to pick up public speaking and communication
-                            skills.
                         </Card.Text>
                     </Card.Body>
                 </Card>
